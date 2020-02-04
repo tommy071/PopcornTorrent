@@ -9,8 +9,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "PocornTorrent",
-            path: "Sources"
+            name: "PopcornTorrent",
+            path: "PopcornTorrent/Source",
+            include: ["include"]
         )
     ]
 )
